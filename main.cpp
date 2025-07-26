@@ -201,6 +201,7 @@ void SORT()
     sort(ANIMALS.begin(), ANIMALS.end(), comparesort);
 }
 
+
 bool comparefed(ANIMAL a, ANIMAL b)
 {
     if (a.is_rare != b.is_rare)
